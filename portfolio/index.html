@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muhamed Kišija, a software developer specializing in creating dynamic and user-friendly websites.">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text animate-left">
+                <h1>Welcome to My Portfolio</h1>
+                <p class="subtitle">Creating Solutions That Matter</p>
+                <p>Hi, I'm Muhamed, a passionate software developer focused on creating impactful solutions.</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+            <div class="hero-image-wrapper animate-right">
+                <img src="photos/photo.png" alt="Muhamed Kišija" class="hero-image">
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-info">
+                <h2>About Me</h2>
+                <p>Hi there! I’m Muhamed, a passionate web developer with a knack for problem-solving and a calm demeanor under pressure. I specialize in creating dynamic and user-friendly websites using HTML, CSS, and JavaScript. I'm always eager to learn and expand my skill set, continuously seeking out new challenges and opportunities for growth. Feel free to explore my work and reach out if you’d like to connect or discuss potential projects.</p>
+            </div>
+            <div class="resume-box">
+                <a href="https://drive.google.com/uc?export=download&id=1mDZWKO9nzGFvX9hSZw0CO9N6nDHhtPfz" download>
+                    <img src="photos/cv.png" alt="Download Resume">
+                    <p>Download My Resume</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="decorative-divider">
+        <span></span>
+    </div>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bar">
+                        <span class="skill-title">HTML</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                        <span class="percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-title">CSS</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-title">JavaScript</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                        <span class="percentage">70%</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem-solving</li>
+                        <li>Calm under pressure</li>
+                        <li>Effective communication</li>
+                        <li>Adaptability</li>
+                        <li>Critical thinking</li>
+                        <li>Team collaboration</li>
+                        <li>Time management</li>
+                        <li>Creativity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="decorative-divider">
+        <span></span>
+    </div>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out using the form below.</p>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+              
+                <input type="hidden" name="access_key" value="823dba5b-be04-49f3-b761-8e163f410fc7">
+
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+
+                
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+              
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/muhamed-kišija-9672a2227" target="_blank" aria-label="LinkedIn profile">
+                    <img src="photos/LinkedIn_logo_initials.png" alt="LinkedIn profile">
+                </a>
+                <a href="https://www.instagram.com/kisija_m/profilecard/" target="_blank" aria-label="Instagram profile">
+                    <img src="photos/Instagram_logo.png" alt="Instagram profile">
+                </a>
+                <a href="https://www.facebook.com/share/afPpEGQwgGA5w4Rt/?mibextid=qi2Omg" target="_blank" aria-label="Facebook page">
+                    <img src="photos/facebook-logo.png" alt="Facebook page">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Muhamed Kišija. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top-btn">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
